@@ -85,7 +85,7 @@ public class GoDriveRentalSystem {
                 if (i instanceof Mobil) {
 
                     biayaDasar = i.hitungBiayaDasar(lamaSewa);
-                    addOns = 50000;
+                    addOns = biayaDasar - i.getHargaSewaPerHari() * lamaSewa;
                     if (VIP.equals("y")) {
                         diskon = ((biayaDasar - addOns) * 0.1);
                     }
@@ -106,7 +106,7 @@ public class GoDriveRentalSystem {
                     System.out.printf("\nDiskon Promo: -Rp%,.0f", promo);
                     System.out.println("\n------------------------------------");
                     System.out.printf("Total: Rp %,.0f\n", total);
-                    // return total;
+                    // Motor;
                 } else if (i instanceof Motor) {
                     biayaDasar = i.hitungBiayaDasar(lamaSewa);
                     addOns = biayaDasar - (i.getHargaSewaPerHari() * lamaSewa);
