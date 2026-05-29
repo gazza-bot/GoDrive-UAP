@@ -15,7 +15,7 @@ public class Motor extends Kendaraan {
     
     @Override
     public void tampilInfo(){
-        System.out.printf("[MOBIL] Kode: %s  | Nama: %s \t| Jenis Transmisi : %s | Tarif: Rp%,f/hari | Status: %s\n", this.getKodeKendaraan(),this.getNamaKendaraan(),this.jenisTransmisi, this.getHargaSewaPerHari(), this.isTersedia() ? "Tersedia" : "Tidak Tersedia" );
+        System.out.printf("[MOBIL] Kode: %s  | Nama: %s \t| Jenis Transmisi : %s | Tarif: Rp%,.0f/hari | Status: %s\n", this.getKodeKendaraan(),this.getNamaKendaraan(),this.jenisTransmisi, this.getHargaSewaPerHari(), this.isTersedia() ? "Tersedia" : "Tidak Tersedia" );
 
     }
 

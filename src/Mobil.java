@@ -15,7 +15,7 @@ public class Mobil extends Kendaraan {
 
     @Override
     public void tampilInfo(){
-        System.out.printf("[MOBIL] Kode: %s  | Nama: %s \t| Kursi: %d | Tarif: Rp%,f/hari | Status: %s\n", this.getKodeKendaraan(),this.getNamaKendaraan(),this.jumlahKursi, this.getHargaSewaPerHari(), this.isTersedia() ? "Tersedia" : "Tidak Tersedia" );
+        System.out.printf("[MOBIL] Kode: %s  | Nama: %s \t| Kursi: %d | Tarif: Rp%,.0f/hari | Status: %s\n", this.getKodeKendaraan(),this.getNamaKendaraan(),this.jumlahKursi, this.getHargaSewaPerHari(), this.isTersedia() ? "Tersedia" : "Tidak Tersedia" );
     }
 
     @Override
