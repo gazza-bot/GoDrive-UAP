@@ -8,10 +8,10 @@ public class GoDriveRentalSystem {
     public GoDriveRentalSystem() {
         this.daftarKendaraan = new ArrayList<>();
         this.daftarKendaraan.add(new Motor("MTR001", "YAMAHA NMAX 2022", 100000, "Matic"));
-        this.daftarKendaraan.add(new Motor("MTR001", "YAMAHA VEGA ZR", 50000, "Manual"));
-        this.daftarKendaraan.add(new Motor("MTR001", "YAMAHA JUPITER Z1", 60000, "Manual"));
-        this.daftarKendaraan.add(new Motor("MTR001", "YAMAHA AEROX 2022", 110000, "Matic"));
-        this.daftarKendaraan.add(new Motor("MTR001", "YAMAHA FILANO 2022", 90000, "Matic"));
+        this.daftarKendaraan.add(new Motor("MTR002", "YAMAHA VEGA ZR", 50000, "Manual"));
+        this.daftarKendaraan.add(new Motor("MTR003", "YAMAHA JUPITER Z1", 60000, "Manual"));
+        this.daftarKendaraan.add(new Motor("MTR004", "YAMAHA AEROX 2022", 110000, "Matic"));
+        this.daftarKendaraan.add(new Motor("MTR005", "YAMAHA FILANO 2022", 90000, "Matic"));
         this.daftarKendaraan.add(new Mobil("MBL001", "HONDA JAZZ 2008", 350000, 4));
         this.daftarKendaraan.add(new Mobil("MBL002", "TOYOTA AVANZA", 450000, 6));
         this.daftarKendaraan.add(new Mobil("MBL003", "HONDA JAZZ 2008", 300000, 4));
