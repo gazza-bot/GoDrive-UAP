@@ -59,6 +59,7 @@ public class GoDriveRentalSystem {
 
     public void tampilkanDaftarKendaraan() {
         int idx = 1;
+        System.out.println("===== ARMADA GODRIVE RENTAL =====");
         for (Kendaraan kendaraan : daftarKendaraan) {
             System.out.print(idx + ". ");
             kendaraan.tampilInfo();
