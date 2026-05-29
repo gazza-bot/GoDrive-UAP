@@ -130,10 +130,10 @@ public class GoDriveRentalSystem {
                     System.out.printf("Diskon Promo : -Rp. %,.0f\n", promo);
                     System.out.printf("Total: Rp. %,.0f\n", total);
                 }
-            } else {
-
+                return;
             }
         }
+        System.out.println("Error: Tidak Ditemukan Kendaraan dengan Kode yang sama.");
     }
 
     public void kembalikanKendaraan(String kode) throws KendaraanTidakTersediaException {
